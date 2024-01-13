@@ -310,7 +310,7 @@ header .wrapper nav label {
 @media (max-width: 760px) {
     header .wrapper nav menu {
         display: none;
-        position: absolute;
+        position: fixed;
         top: 70px;
         right: 10px;
         background-color: white;
