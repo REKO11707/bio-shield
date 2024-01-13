@@ -233,7 +233,10 @@ header .wrapper nav menu {
     margin: 0;
     padding: 0
 }
-
+header .wrapper nav menu a{
+    color: #191919;
+    text-decoration: none;
+}
 header .wrapper nav menu li{
     padding: 20px;
     cursor: pointer;
