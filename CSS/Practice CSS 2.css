@@ -215,7 +215,6 @@ header .wrapper .logo {
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
 }
-
 header .wrapper .logo:hover {
     cursor: pointer;
     background-color: var(--mainHvColor);
@@ -1135,7 +1134,7 @@ header .wrapper nav label {
 }
 
 .serv {
-    background-color: #eee;
+    background-color: #ffffff;
 }
 .serv .wrapper {
     display: grid;
@@ -1336,9 +1335,11 @@ header .wrapper nav label {
     }
 }
 .features {
+    background-color: #ffffff;
+}
+.stats{
     background-color: #EEE;
 }
-
 .features .wrapper {
     display: flex;
     flex-direction: row-reverse;
@@ -1504,11 +1505,14 @@ header .wrapper nav label {
 
 .plans .wrapper .box ul {
     list-style: none;
-    text-align: right;
+    text-align: left;
     padding: 0;
     align-self: flex-start;
 }
 
+.subs {
+    background-color: #EEE;
+}
 .plans .wrapper .box ul li {
     padding: 20px 0;
     position: relative;
@@ -1593,7 +1597,7 @@ header .wrapper nav label {
     margin-top: -20px;
 }
 
-.plans .wrapper .box:nth-child(2)::before {
+/* .plans .wrapper .box:nth-child(2)::before {
     position: absolute;
     content: "الأكثر رواجًا";
     top: 34px;
@@ -1607,9 +1611,9 @@ header .wrapper nav label {
     -moz-transform: rotatez(-90deg);
     -ms-transform: rotatez(-90deg);
     -o-transform: rotatez(-90deg);
-}
+} */
 
-.plans .wrapper .box:nth-child(2)::after {
+/* .plans .wrapper .box:nth-child(2)::after {
     position: absolute;
     content: "";
     top: 92px;
@@ -1617,7 +1621,7 @@ header .wrapper nav label {
     width: 0; height: 0;
     border: 20px solid;
     border-color: transparent var(--mainColor) transparent var(--mainColor);
-}
+} */
 
 .subs .wrapper {
     display: flex;
